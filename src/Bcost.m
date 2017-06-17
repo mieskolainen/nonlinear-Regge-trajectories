@@ -56,10 +56,9 @@ for i = 1:length(N_M)
     width(i) = im_a_s(N_M(i)^2) / (N_M(i) * re_ap_s(N_M(i)^2));
 end
 
-% Cost vector, because mass^2 approx~ spin
-% we use error on M^2 directly for the error on J
+% Cost vector
 y_w = [(spin - N_J) ./ N_J_err, (width - N_W) ./ N_W_err];
 y_p = [(spin - N_J), (width - N_W)];
-chi2 = sum(y_w.^2); % print out for debug
+chi2 = sum(y_w.^2);
 
 end
