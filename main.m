@@ -241,7 +241,7 @@ s = -3:1e-2:9; % GeV^2
 plottrajectory(s, N_M, N_M_err, N_J, alpha0, names, type, traj);
 cmd = sprintf('print -dpdf ./figs/%s_trajectory.pdf', traj);
 eval(cmd);
-
+pause(2); close all;
 
 %% Width plot
 
@@ -250,7 +250,7 @@ M2 = linspace(0,8,1000); % GeV^2
 plotwidth(M2, N_M, N_M_err, N_W, N_W_err, names, type, traj);
 cmd = sprintf('print -dpdf ./figs/%s_width.pdf', traj);
 eval(cmd);
-
+pause(2); close all;
 
 %% Complex plane plot
 
@@ -259,7 +259,7 @@ s = -1:1e-2:9; % GeV^2
 plotcomplexplane(s, type, traj);
 cmd = sprintf('print -dpdf ./figs/%s_complexplane.pdf', traj);
 eval(cmd);
-
+pause(2); close all;
 
 end
 diary off;
