@@ -120,3 +120,436 @@ lambda[1] = 0.7965
 lambda[2] = 1.8479 
 lambda[3] = 3.8312 
 
+============================================================
+Fitting the fermionic family: N 
+
+Linear (affine) parameters: a0 = -0.225, a' = 0.936 
+....................
+..........
+
+Fit results: 
+
+Chi2 / NDF = 101.416 / 1 
+
+Parameter correlation matrix for N -family: 
+-------------------------------------------------------------
+
+ans =
+
+    1.0000    0.9059    0.4501    0.9884    0.4136    0.0179    0.9718   -0.8626
+    0.9059    1.0000    0.7012    0.9569    0.6818   -0.3044    0.7886   -0.5779
+    0.4500    0.7012    1.0000    0.5360    0.9987   -0.8844    0.3098   -0.0226
+    0.9884    0.9569    0.5361    1.0000    0.5047   -0.0810    0.9270   -0.7824
+    0.4136    0.6818    0.9987    0.5047    1.0000   -0.9011    0.2670    0.0235
+    0.0181   -0.3043   -0.8843   -0.0808   -0.9011    1.0000    0.1551   -0.4169
+    0.9718    0.7886    0.3098    0.9270    0.2670    0.1550    1.0000   -0.9522
+   -0.8626   -0.5779   -0.0227   -0.7825    0.0235   -0.4168   -0.9522    1.0000
+
+
+Obtained parameters for N -family: 
+-------------------------------------------------------------
+s(1)   = 1.1775 +- 0.2846 
+s(2)   = 2.3344 +- 0.1222 
+s(3)   = 11.1722 +- 0.0721 
+c(1)   = 0.4942 +- 0.2493 
+c(2)   = 3.8665 +- 0.1504 
+c(3)   = 4156.6554 +- 0.0000 
+alpha0 = -0.3767 +- 0.0365 
+delta  = -0.4081 +- 0.0097 
+
+Calculated: 
+lambda[1] = 1.0183 
+lambda[2] = 2.2973 
+lambda[3] = 13.8369 
+
+MEvent. CASE!
+MEvent. CASE!
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotcomplexplane', '/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m', 26)" style="font-weight:bold">plotcomplexplane</a> (<a href="matlab: opentoline('/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m',26,0)">line 26</a>)
+plot(s_range, alpha_real, alpha_imag, 'k-'); hold on;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', '/home/user/cernbox/#NonLinearTrajectories/matlabcode/main.m', 259)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('/home/user/cernbox/#NonLinearTrajectories/matlabcode/main.m',259,0)">line 259</a>)
+plotcomplexplane(s, N_M, N_M_err, N_J, alpha0, names, type, traj);
+} 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotcomplexplane', '/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m', 26)" style="font-weight:bold">plotcomplexplane</a> (<a href="matlab: opentoline('/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m',26,0)">line 26</a>)
+plot(s_range, alpha_real, alpha_imag, 'k-'); hold on;
+} 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+There is no linwidth property on the Line class.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotcomplexplane', '/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m', 26)" style="font-weight:bold">plotcomplexplane</a> (<a href="matlab: opentoline('/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m',26,0)">line 26</a>)
+plot(alpha_real, alpha_imag, 'r-', 'linwidth', 1.25); hold on;
+} 
+{Undefined function or variable 'alpha_image'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotcomplexplane', '/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m', 44)" style="font-weight:bold">plotcomplexplane</a> (<a href="matlab: opentoline('/home/user/cernbox/#NonLinearTrajectories/matlabcode/src/plotcomplexplane.m',44,0)">line 44</a>)
+   text(alpha_real(i), alpha_image(i), sprintf('$s = %0.1f$', s_range(i)), 'fontsize', 12);
+} 
+
+step =
+
+  Columns 1 through 19
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 20 through 38
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 39 through 57
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 58 through 76
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 77 through 95
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 96 through 114
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 115 through 133
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 134 through 152
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 153 through 171
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 172 through 190
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 191 through 209
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 210 through 228
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 229 through 247
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 248 through 266
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 267 through 285
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 286 through 304
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 305 through 323
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 324 through 342
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 343 through 361
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 362 through 380
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 381 through 399
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 400 through 418
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 419 through 437
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 438 through 456
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 457 through 475
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 476 through 494
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 495 through 513
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 514 through 532
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 533 through 551
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 552 through 570
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 571 through 589
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 590 through 608
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 609 through 627
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 628 through 646
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 647 through 665
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 666 through 684
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 685 through 701
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+MEvent. CASE!
+MEvent. CASE!
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+-1.0$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+-0.3$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+0.4$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+1.1$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+1.8$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+2.5$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+3.2$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+3.9$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+4.6$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+5.3$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+[Warning: Error updating Text.
+
+ Character vector must have valid interpreter syntax:
+6.0$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',36,0)">line 36</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('name', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/private/name.m', 102)" style="font-weight:bold">name</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/private/name.m',102,0)">line 102</a>)
+Cannot create output file './figs/N_complexplane.pdf'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m', 71)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/graphics/print.m',71,0)">line 71</a>)
+pj = name( pj );
+} 
+MEvent. CASE!
+MEvent. CASE!
+MEvent. CASE!
+MEvent. CASE!
+main
+============================================================
+Fitting the fermionic family: N 
+
+Linear (affine) parameters: a0 = -0.225, a' = 0.936 
+....................
+..........
+
+Fit results: 
+
+Chi2 / NDF = 105.986 / 1 
+
+Parameter correlation matrix for N -family: 
+-------------------------------------------------------------
+
+ans =
+
+    1.0000    0.6754   -0.7172    0.9539    0.7354   -0.8397    0.9397   -0.9232
+    0.6753    1.0000   -0.3837    0.8610    0.7809   -0.8126    0.3888   -0.5375
+   -0.7176   -0.3841    1.0000   -0.6501   -0.0948    0.2631   -0.6983    0.9232
+    0.9539    0.8611   -0.6497    1.0000    0.8117   -0.8969    0.7965   -0.8449
+    0.7355    0.7810   -0.0945    0.8118    1.0000   -0.9862    0.5795   -0.4326
+   -0.8376   -0.8110    0.2614   -0.8948   -0.9844    1.0000   -0.6891    0.5783
+    0.9397    0.3889   -0.6979    0.7966    0.5795   -0.6911    1.0000   -0.8966
+   -0.9233   -0.5376    0.9229   -0.8450   -0.4326    0.5802   -0.8967    1.0000
+
+
+Obtained parameters for N -family: 
+-------------------------------------------------------------
+s(1)   = 1.1849 +- 0.1665 
+s(2)   = 2.6102 +- 0.0548 
+s(3)   = 12.1050 +- 0.0422 
+c(1)   = 0.5222 +- 0.1228 
+c(2)   = 3.8882 +- 0.1076 
+c(3)   = 4000.9728 +- 0.0001 
+alpha0 = -0.3945 +- 0.0387 
+delta  = -0.4787 +- 0.0030 
+
+Calculated: 
+lambda[1] = 0.5771 
+lambda[2] = 1.5661 
+lambda[3] = 9.4131 
+
+============================================================
+Fitting the bosonic family: \rho+a_2 
+
+Linear (affine) parameters: a0 = 0.456, a' = 0.886 
+....................
+..........
+
+Fit results: 
+
+Chi2 / NDF = 20.994 / 6 
+
+Parameter correlation matrix for \rho+a_2 -family: 
+-------------------------------------------------------------
+
+ans =
+
+    1.0000    0.9637    0.9231    1.0000   -0.9758    0.9305   -0.9788
+    0.9637    1.0000    0.9871    0.9655   -0.8968    0.9896   -0.9953
+    0.9231    0.9871    1.0000    0.9256   -0.8383    0.9998   -0.9801
+    1.0000    0.9655    0.9256    1.0000   -0.9749    0.9329   -0.9802
+   -0.9758   -0.8968   -0.8383   -0.9749    1.0000   -0.8492    0.9280
+    0.9305    0.9896    0.9998    0.9329   -0.8492    1.0000   -0.9839
+   -0.9788   -0.9953   -0.9801   -0.9802    0.9280   -0.9839    1.0000
+
+
+Obtained parameters for \rho+a_2 -family: 
+-------------------------------------------------------------
+s(1)   = -0.4784 +- 8.9469 
+s(2)   = 1.5678 +- 0.0586 
+s(3)   = 13.5673 +- 10.5878 
+c(1)   = 0.0882 +- 0.0535 
+c(2)   = 0.3751 +- 0.0413 
+c(3)   = 17.4172 +- 12.9954 
+alpha0 = 0.4928 +- 0.0077 
+
+Calculated: 
+lambda[1] = 0.0945 
+lambda[2] = 1.8425 
+lambda[3] = 11.7006 
+
+============================================================
+Fitting the bosonic family: f 
+
+Linear (affine) parameters: a0 = 0.491, a' = 0.892 
+....................
+..........
+
+Fit results: 
+
+Chi2 / NDF = 0.000 / 0 
+
+Parameter correlation matrix for f -family: 
+-------------------------------------------------------------
+
+ans =
+
+    1.0000   -0.9866   -0.5809    0.9940   -0.9745    0.3796   -0.9856
+   -0.9866    1.0000    0.4492   -0.9906    0.9813   -0.5249    0.9981
+   -0.5809    0.4492    1.0000   -0.5452    0.4808    0.4884    0.4664
+    0.9940   -0.9906   -0.5452    1.0000   -0.9682    0.4280   -0.9933
+   -0.9745    0.9813    0.4808   -0.9682    1.0000   -0.4950    0.9734
+    0.3796   -0.5249    0.4884    0.4280   -0.4950    1.0000   -0.5151
+   -0.9856    0.9981    0.4664   -0.9933    0.9734   -0.5151    1.0000
+
+
+Obtained parameters for f -family: 
+-------------------------------------------------------------
+s(1)   = 0.0305 +- 0.0000 
+s(2)   = 1.4320 +- 0.0000 
+s(3)   = 3.8783 +- 0.0000 
+c(1)   = 0.1493 +- 0.0000 
+c(2)   = 0.1673 +- 0.0000 
+c(3)   = 5.0938 +- 0.0000 
+alpha0 = 0.7754 +- 0.0000 
+
+Calculated: 
+lambda[1] = 0.7966 
+lambda[2] = 1.8481 
+lambda[3] = 3.8312 
+

@@ -252,6 +252,15 @@ cmd = sprintf('print -dpdf ./figs/%s_width.pdf', traj);
 eval(cmd);
 
 
+%% Complex plane plot
+
+figure;
+s = -1:1e-2:9; % GeV^2
+plotcomplexplane(s, type, traj);
+cmd = sprintf('print -dpdf ./figs/%s_complexplane.pdf', traj);
+eval(cmd);
+
+
 end
 diary off;
 toc;
